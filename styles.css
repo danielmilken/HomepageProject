@@ -1,0 +1,265 @@
+body {
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(64,3,166,1) 100%);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.plain-mode {
+    background: none;
+    background-color: rgba(20, 20, 20);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    color: 'black';
+    font-family: 'Akira';
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 15px;
+
+}
+.backtwo {
+    background-image: url("patterns.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+hr {
+    color: white;
+    border-top: 3px solid white;
+  }
+
+@font-face {
+    font-family: 'Akira';
+    src: url("Akira Expanded Demo.otf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Merchant';
+    src: url("Merchant Copy.ttf") format("truetype");
+}
+
+.navsetting {
+    font-family: 'Akira';
+    color: white;
+}
+
+.navsetting2 {
+    font-family: 'Akira';
+}
+
+.headimg img {
+    border-radius: 20%;
+    left: 100px;
+    margin-top: -30px;
+}
+
+
+/* Home Page */
+
+.headsite {
+    text-align: center;
+    font-size: 150px;
+    font-family: 'Akira';
+    color: white;
+    font-weight: bold;
+    text-shadow: black 4px 6px;
+
+}
+
+.headsite p {
+    font-size: 40px;
+    margin-top: -60px;
+    letter-spacing: 40px;
+    color: grey;
+
+}
+
+
+.sub {
+    font-size: 25px;
+    font-family: 'Merchant';
+    color: white;
+    margin-top: 50px;
+    letter-spacing: 1px;
+    text-align: center;
+    text-shadow: black 2px 4px;
+}
+
+.sub p {
+    font-size: 20px;
+    font-style: bold;
+}
+
+.passage {
+    font-size: 20px;
+    font-family: 'Merchant';
+    color: white;
+    margin-top: 200px;
+
+}
+
+.passage h1 {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Akira';
+    color: white;
+    margin-top: -130px;
+}
+
+.passage h2 {
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Akira';
+    color: white;
+    margin-top: 70px;
+}
+
+.passage p {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Merchant';
+    color: white;
+    margin-top: 60px;
+
+}
+
+
+/* App Download */
+
+.download {
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+    margin-top: 40px;
+}
+
+.download h1 {
+    font-family: 'Akira';
+    color: white;
+    font-size: 40px;
+    /* margin-top: -10px; */
+    text-align: center;
+}
+
+.download h2 {
+    font-family: 'Akira';
+    color: white;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center;
+    text-shadow: black 4px 6px;
+}
+
+.download h3 {
+    font-family: 'Akira';
+    color: white;
+    font-size: 40px;
+    margin-top: 70px;
+    text-align: center;
+    text-shadow: black 4px 6px;
+}
+
+
+.download p {
+    font-family: 'Akira';
+    color: white;
+    font-size: 10px;
+    margin-top: 1px;
+    text-align: center;
+    text-shadow: black 4px 6px;
+}
+
+.download img {
+    border-radius: 20%;
+    /* margin-left: 600px;
+    margin-top: -330px; */
+}
+
+/* Meet the Team */
+
+.names h1 {
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Akira';
+    color: white;
+    font-weight: bold;
+    text-shadow: black 4px 6px;
+    margin-top: -20px;
+}
+
+.names h2 {
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Akira';
+    color: white;
+    font-weight: bold;
+    text-shadow: black 4px 6px;
+    margin-top: 110px;
+    margin-left: 80px;
+}
+
+.names p {
+    text-align: left;
+    font-size: 35px;
+    font-family: 'Merchant';
+    color: white;
+    font-weight: bold;
+    text-shadow: black 4px 6px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+/* Pictures */
+
+.piclabel h1 {
+    text-align: right;
+    margin-top: -540px;
+    margin-right: 50px;
+    font-size: 90px;
+    font-family: 'Akira';
+    color: white;
+    font-weight: bold;
+    text-shadow: black 4px 6px;
+}
+
+.piclabel p {
+    text-align: right;
+    margin-right: 50px;
+    font-size: 45px;
+    font-family: 'Merchant';
+    color: white;
+    font-weight: bold;
+    text-shadow: black 4px 6px;
+}
+
+/* Reviews */
+
+.source h1 {
+    text-align: right;
+    margin-right: 250px;
+    margin-top: -60px;
+    font-size: 75px;
+    font-family: 'Merchant';
+    color: white;
+    font-weight: bold;
+    text-shadow: black 4px 6px;
+}
+
+.source h2 {
+    text-align: right;
+    margin-right: 250px;
+    margin-top: 40px;
+    font-size: 75px;
+    font-family: 'Merchant';
+    color: white;
+    font-weight: bold;
+    text-shadow: black 4px 6px;
+}
+
+
