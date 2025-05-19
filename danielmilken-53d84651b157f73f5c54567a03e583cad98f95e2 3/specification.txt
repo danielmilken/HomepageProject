@@ -1,0 +1,20 @@
+10 HTML Tags
+<div>
+<br>
+<hr>
+<p>
+<h1>
+<h2>
+<h3>
+<img>
+<button>
+<li>
+
+CSS Properties
+text-align
+font-size
+color
+text-shadow
+background-image
+
+I used JavaScript to make a "toggle plain mode" button, which changes the background color. I used Bootstrap to make a navbar at the top of the screen.
